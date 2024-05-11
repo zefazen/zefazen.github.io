@@ -210,16 +210,3 @@
 		}
 
 })(jQuery);
-
-// Form Submission Reset
-document.getElementById('myForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
-
-    // Clear values of name, email, and message inputs
-    document.getElementsByName('name')[0].value = '';
-    document.getElementsByName('email')[0].value = '';
-    document.getElementsByName('message')[0].value = '';
-
-    // Optionally, you can submit the form programmatically after clearing
-    this.submit(); // Uncomment this line if you want to submit the form programmatically after clearing
-});
