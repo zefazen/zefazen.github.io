@@ -2189,3 +2189,15 @@ input, select, textarea {
 			}
 
 		}
+
+		/* thx.html */
+		.thx-back {
+            text-align: center;
+        }
+        .thx-back a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .thx-back button i {
+            margin-left: 5px;
+        }
